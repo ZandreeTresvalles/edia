@@ -39,3 +39,8 @@ next-env.d.ts
 # .elasticbeanstalk/*
 # !.elasticbeanstalk/*.cfg.yml
 # !.elasticbeanstalk/*.global.yml
+
+# Local environment files hold credentials and must never be committed
+.env
+.env.*
+!.env.example
